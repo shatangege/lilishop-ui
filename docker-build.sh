@@ -1,6 +1,6 @@
 #代码目录
 code_path=$PWD
-REGISTRY_PATH='registry.cn-hangzhou.aliyuncs.com/lilishop-ui'
+REGISTRY_PATH='registry.cloud.com:5000/lili-images'
 BUILD_VERSION=4.2.4.1
 
 read -p "请输入仓库地址": REGISTRY_PATH
