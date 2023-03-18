@@ -1,7 +1,7 @@
 #代码目录
 code_path=$PWD
 REGISTRY_PATH='registry.cloud.com:5000/lili-images'
-BUILD_VERSION=4.2.4.1
+BUILD_VERSION=latest
 
 #read -p "请输入仓库地址": REGISTRY_PATH
 
