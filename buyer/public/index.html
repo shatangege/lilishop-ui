@@ -7,12 +7,12 @@
     <link rel="icon" href="<%= BASE_URL %>logo.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
     <% for(var css of htmlWebpackPlugin.options.cdn.css) { %>
-      <link rel="stylesheet" href="<%=/buyer-ui/css%>" />
+      <link rel="stylesheet" href="<%= '/buyer-ui/css' %>" />
       <% } %>
   </head>
   <body>
     <% for(var js of htmlWebpackPlugin.options.cdn.js) { %>
-      <script src="<%=/buyer-ui/js%>"></script>
+      <script src="<%= '/buyer-ui/js' %>"></script>
       <% } %>
       <script src="/buyer-ui/config.js"></script>
     <noscript>
