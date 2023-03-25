@@ -31,8 +31,8 @@
 ````
     server {
         listen       443 ssl;
-        ssl_certificate "/etc/nginx/ssl/pickmall.cn.pem";
-        ssl_certificate_key "/etc/nginx/ssl/pickmall.cn.key";
+        ssl_certificate "/etc/nginx/ssl/cloud.com.pem";
+        ssl_certificate_key "/etc/nginx/ssl/cloud.com.key";
         ssl_session_cache shared:SSL:1m;
         ssl_session_timeout  10m;
         ssl_ciphers HIGH:!aNULL:!MD5;
@@ -43,7 +43,7 @@
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
 
-        server_name  im-api.pickmall.cn;
+        server_name  im-api.cloud.com;
         location / {
             proxy_pass http://127.0.0.1:8088;
         }
@@ -51,8 +51,8 @@
 
     server {
         listen       443 ssl;
-        ssl_certificate "/etc/nginx/ssl/pickmall.cn.pem";
-        ssl_certificate_key "/etc/nginx/ssl/pickmall.cn.key";
+        ssl_certificate "/etc/nginx/ssl/cloud.com.pem";
+        ssl_certificate_key "/etc/nginx/ssl/cloud.com.key";
         ssl_session_cache shared:SSL:1m;
         ssl_session_timeout  10m;
         ssl_ciphers HIGH:!aNULL:!MD5;
@@ -64,7 +64,7 @@
         proxy_set_header REMOTE-HOST $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
-            server_name  im.pickmall.cn;
+            server_name  im.cloud.com;
         try_files $uri $uri/ /index.html;
         root         /home/im/im/dist;
     }

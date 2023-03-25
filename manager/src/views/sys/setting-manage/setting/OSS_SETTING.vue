@@ -30,7 +30,7 @@
 
       <FormItem v-if="formValidate.type==='MINIO'" label="访问地址" prop="m_frontUrl">
         <Input v-model="formValidate.m_frontUrl"/>
-        <span class="desc">配置MINIO nginx前端访问转发地址，一般为完整域名，例如：https://minio.pickmall.cn</span>
+        <span class="desc">配置MINIO nginx前端访问转发地址，一般为完整域名，例如：https://minio.cloud.com</span>
       </FormItem>
       <FormItem v-if="formValidate.type==='MINIO'" label="endpoint" prop="m_endpoint">
         <Input v-model="formValidate.m_endpoint"/>

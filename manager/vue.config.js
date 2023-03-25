@@ -29,19 +29,19 @@ let externals = {
 
 // 使用CDN的内容
 let cdn = {
-  css: ["https://cdn.pickmall.cn/cdn/iview.css"],
+  css: ["https://cdn.cloud.com/cdn/iview.css"],
   js: [
     // vue must at first!
-    "https://cdn.pickmall.cn/cdn/vue.min.js",
-    "https://cdn.pickmall.cn/cdn/vuex.min.js",
-    "https://cdn.pickmall.cn/cdn/vue-router.min.js",
-    "https://cdn.pickmall.cn/cdn/axios.min.js",
-    "https://cdn.pickmall.cn/cdn/iview.min.js",
-    "https://cdn.pickmall.cn/cdn/vue-lazyload.min.js",
-    "https://cdn.pickmall.cn/cdn/js.cookie.min.js",
-    "https://cdn.pickmall.cn/cdn/DPlayer.min.js",
+    "https://cdn.cloud.com/cdn/vue.min.js",
+    "https://cdn.cloud.com/cdn/vuex.min.js",
+    "https://cdn.cloud.com/cdn/vue-router.min.js",
+    "https://cdn.cloud.com/cdn/axios.min.js",
+    "https://cdn.cloud.com/cdn/iview.min.js",
+    "https://cdn.cloud.com/cdn/vue-lazyload.min.js",
+    "https://cdn.cloud.com/cdn/js.cookie.min.js",
+    "https://cdn.cloud.com/cdn/DPlayer.min.js",
 
-    "https://cdn.pickmall.cn/cdn/sockjs.min.js",
+    "https://cdn.cloud.com/cdn/sockjs.min.js",
     "https://gw.alipayobjects.com/os/lib/antv/g2/4.1.24/dist/g2.min.js"
   ]
 };

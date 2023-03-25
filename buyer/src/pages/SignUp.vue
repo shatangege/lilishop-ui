@@ -89,7 +89,7 @@
       </Row>
       <Row type="flex" justify="center" class="copyright">
         Copyright © {{year}} - Present
-        <a href="https://pickmall.cn" target="_blank" style="margin: 0 5px">{{config.title}}</a>
+        <a href="https://cloud.com" target="_blank" style="margin: 0 5px">{{config.title}}</a>
         版权所有
       </Row>
     </div>
